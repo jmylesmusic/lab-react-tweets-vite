@@ -14,10 +14,10 @@ function Tweet({ tweet }) {
         <div className="top">
           <User name={name} handle={handle} />
 
-          <Timestamp time={tweet.timestamp} />
+          <Timestamp time={timestamp} />
         </div>
 
-        <Message message={tweet.message} />
+        <Message message={message} />
 
         <Actions />
       </div>
